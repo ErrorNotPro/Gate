@@ -206,19 +206,19 @@ def format_final_message(cc, response_text, status, amount, bin_info, user_id, f
         
     message = f"""#Paypal_Charge (${amount}) 🌩[/pp]      
 - - - - - - - - - - - - - - - - - - - - - -    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐂𝐚𝐫𝐝</strong>↣<code>{cc}</code>    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐀𝐦𝐨𝐮𝐧𝐭</strong>↣${amount}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐂𝐚𝐫𝐝</strong>↣<code>{cc}</code>    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐀𝐦𝐨𝐮𝐧𝐭</strong>↣${amount}    
 - - - - - - - - - - - - - - - - - - - - - -    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐒𝐭𝐚𝐭𝐮𝐬:</strong> {status_msg}    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞</strong>↣ <code>{response_text}</code> {emoji}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐒𝐭𝐚𝐭𝐮𝐬:</strong> {status_msg}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞</strong>↣ <code>{response_text}</code> {emoji}    
 - - - - - - - - - - - - - - - - - - - - - -    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐁𝐫𝐚𝐧𝐝</strong>↣{card_info}    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐁𝐚𝐧𝐤</strong>↣{issuer}    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐂𝐨𝐮𝐧𝐭𝐫𝐲</strong>↣{country} {flag}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐁𝐫𝐚𝐧𝐝</strong>↣{card_info}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐁𝐚𝐧𝐤</strong>↣{issuer}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐂𝐨𝐮𝐧𝐭𝐫𝐲</strong>↣{country} {flag}    
 - - - - - - - - - - - - - - - - - - - - - -    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐁𝐲</strong>↣ {user_mention}    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐁𝐨𝐭 𝐁𝐲</strong>↣ <a href="tg://user?id={DARKS_ID}">DANI - 🍀</a>    
-[<a href="https://t.me/danivipgc">⌬</a>] <strong>𝐓𝐢𝐦𝐞</strong>↣ {time_taken} <strong>𝐬𝐞𝐜𝐨𝐧𝐝𝐬</strong>"""    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐁𝐲</strong>↣ {user_mention}    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐁𝐨𝐭 𝐁𝐲</strong>↣ <a href="tg://user?id={DARKS_ID}">⏤͟͞𝙀𝙍𝙍𝙊𝙍</a>    
+[<a href="https://t.me/ERR0R9">⌬</a>] <strong>𝐓𝐢𝐦𝐞</strong>↣ {time_taken} <strong>𝐬𝐞𝐜𝐨𝐧𝐝𝐬</strong>"""    
     return message    
 
 @bot.message_handler(commands=['start', 'help'])    
